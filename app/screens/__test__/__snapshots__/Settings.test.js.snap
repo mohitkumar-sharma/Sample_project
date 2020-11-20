@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#1A1924",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFCC00",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "margin": 10,
+            "padding": 3,
+          },
+          undefined,
+        ]
+      }
+      testID="banner-text"
+    >
+      Notice: You are running this app on true
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        },
+        Object {
+          "backgroundColor": "#6EB1F7",
+          "paddingVertical": 10,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "fontSize": 15,
+            "marginHorizontal": 15,
+            "paddingVertical": 5,
+          },
+          undefined,
+        ]
+      }
+      testID="settings-switch-text"
+    >
+      Enable Warning Banner
+    </Text>
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTintColor="#1A1924"
+      style={
+        Array [
+          Object {
+            "height": 31,
+            "width": 51,
+          },
+          Array [
+            Object {
+              "marginRight": 15,
+            },
+            undefined,
+          ],
+        ]
+      }
+      testID="settings-switch"
+      tintColor="#E8E8E8"
+      value={false}
+    />
+  </View>
+</RCTSafeAreaView>
+`;

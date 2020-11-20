@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVTextInput matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginHorizontal": 20,
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "paddingHorizontal": 5,
+        "paddingVertical": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E8E8E8",
+          "height": 1,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`INVTextInput matches snapshot 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginHorizontal": 20,
+      },
+      Object {
+        "margin": 20,
+      },
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "paddingHorizontal": 5,
+        "paddingVertical": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E8E8E8",
+          "height": 1,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

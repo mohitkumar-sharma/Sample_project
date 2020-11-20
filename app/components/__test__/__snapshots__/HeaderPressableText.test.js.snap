@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderPressableText matches snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#6EB1F7",
+      "opacity": 1,
+    }
+  }
+  testID="header-pressable-element"
+/>
+`;
+
+exports[`HeaderPressableText matches snapshot 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#6EB1F7",
+      "opacity": 1,
+    }
+  }
+  testID="header-pressable-element"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+          "fontWeight": "400",
+        },
+        Object {
+          "fontSize": 17,
+        },
+      ]
+    }
+    testID="header-sides-text"
+  >
+    SignOut
+  </Text>
+</View>
+`;

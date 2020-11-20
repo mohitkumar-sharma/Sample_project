@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonSliderElement matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#6EB1F7",
+        "borderRadius": 8,
+        "height": 55,
+        "justifyContent": "center",
+        "width": 55,
+      },
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`ButtonSliderElement matches snapshot 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#6EB1F7",
+        "borderRadius": 8,
+        "height": 55,
+        "justifyContent": "center",
+        "width": 55,
+      },
+      Object {
+        "height": 60,
+        "width": 60,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 20,
+        },
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 25,
+          },
+          Object {
+            "fontSize": 25,
+          },
+        ],
+        Object {
+          "fontFamily": "simple-line-icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+    testID="slider-button-icon"
+  >
+    
+  </Text>
+</View>
+`;

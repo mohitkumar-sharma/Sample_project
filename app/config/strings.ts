@@ -1,0 +1,17 @@
+export default {
+  GO_TO_HOME: 'Go To Home',
+  DIAMOND_ICON: 'diamond',
+  SLIDE_ME: 'Slide me to continue',
+  APP_RUNNING_WARNING: 'Notice: You are running this app on',
+  WELCOME_INPUT_PLACEHOLDER: 'Enter your name here...',
+  SIGN_OUT: 'SignOut',
+  HOME_BUTTONS_HEADING: '4 variations of a button',
+  PRESS_ME: 'Press me',
+  TRANSPARENT_BTN_PRESSED: 'Transparent button is pressed',
+  LIGHT_BLACK_BTN_PRESSED: 'Light black button is pressed',
+  BLUE_BTN_PRESSED: 'Blue button is pressed',
+  SWITCH_TEXT: 'Enable Warning Banner',
+  ALERT_TITLE_INVALID_USER_NAME: 'Invalid UserName!',
+  ALERT_TITLE_BTN_PRESSED: 'Button Pressed!',
+  ALERT_ENTER_VALID_USER_NAME: 'Please enter a valid user name.',
+};

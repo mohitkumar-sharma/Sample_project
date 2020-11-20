@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVSliderButton matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 15,
+    }
+  }
+  testID="slider-button-container"
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "borderColor": "#6EB1F7",
+          "borderRadius": 9,
+          "borderWidth": 1,
+          "height": 55,
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#6EB1F7",
+              "borderRadius": 8,
+              "height": 55,
+              "justifyContent": "center",
+              "width": 55,
+            },
+            Object {
+              "marginHorizonta": 20,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "position": "absolute",
+            "zIndex": -1,
+          },
+          Object {},
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`INVSliderButton matches snapshot 2`] = `
+<View
+  style={
+    Object {
+      "marginTop": 15,
+    }
+  }
+  testID="slider-button-container"
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "borderColor": "#6EB1F7",
+          "borderRadius": 9,
+          "borderWidth": 1,
+          "height": 55,
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+        },
+        Object {
+          "alignItems": "flex-start",
+        },
+      ]
+    }
+  >
+    <View
+      onLayout={[Function]}
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      style={
+        Object {
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#6EB1F7",
+              "borderRadius": 8,
+              "height": 55,
+              "justifyContent": "center",
+              "width": 55,
+            },
+            Object {
+              "marginHorizonta": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 20,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 25,
+                },
+                Object {
+                  "fontSize": 20,
+                },
+              ],
+              Object {
+                "fontFamily": "simple-line-icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="slider-button-icon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "position": "absolute",
+            "zIndex": -1,
+          },
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#6EB1F7",
+              "fontSize": 17,
+              "fontWeight": "400",
+            },
+            Object {
+              "fontSize": 19,
+            },
+          ]
+        }
+        testID="slider-button-text"
+      >
+        Slide me to continue
+      </Text>
+    </View>
+  </View>
+</View>
+`;

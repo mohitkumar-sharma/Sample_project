@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVBanner matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFCC00",
+      },
+      Object {
+        "backgroundColor": "#FF0000",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`INVBanner matches snapshot 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFCC00",
+      },
+      Object {
+        "backgroundColor": "#FF0000",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 15,
+          "fontWeight": "400",
+          "margin": 10,
+          "padding": 3,
+        },
+        Object {
+          "fontSize": 17,
+        },
+      ]
+    }
+    testID="banner-text"
+  >
+    Notice: You are running this app on Emulator
+  </Text>
+</View>
+`;

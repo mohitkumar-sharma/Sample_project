@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVDivider matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E8E8E8",
+        "height": 1,
+      },
+      undefined,
+    ]
+  }
+/>
+`;

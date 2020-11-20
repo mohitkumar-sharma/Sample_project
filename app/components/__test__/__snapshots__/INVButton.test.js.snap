@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INVButton matches snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#1A1924",
+      "borderRadius": 8,
+      "height": 55,
+      "justifyContent": "center",
+      "marginHorizontal": 20,
+      "opacity": 1,
+    }
+  }
+  testID="normal-button"
+/>
+`;
+
+exports[`INVButton matches snapshot 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#1A1924",
+      "borderRadius": 8,
+      "height": 55,
+      "justifyContent": "center",
+      "marginHorizontal": 20,
+      "opacity": 1,
+    }
+  }
+  testID="normal-button"
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "textAlign": "center",
+        },
+        Object {
+          "backgroundColor": "#6EB1F7",
+          "fontSize": 17,
+        },
+      ]
+    }
+    testID="normal-button-text"
+  >
+    Go To Home
+  </Text>
+</View>
+`;

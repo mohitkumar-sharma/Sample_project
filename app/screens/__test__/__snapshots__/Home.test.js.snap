@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#1A1924",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFCC00",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "margin": 10,
+            "padding": 3,
+          },
+          undefined,
+        ]
+      }
+      testID="banner-text"
+    >
+      Notice: You are running this app on true
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 20,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFCC00",
+          "fontSize": 18,
+          "fontWeight": "500",
+          "padding": 5,
+          "textAlign": "center",
+        }
+      }
+    >
+      4 variations of a button
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 8,
+          "height": 55,
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+      testID="normal-button"
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#6EB1F7",
+            },
+          ]
+        }
+        testID="normal-button-text"
+      >
+        Press me
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#34424A",
+          "borderRadius": 8,
+          "height": 55,
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+      testID="normal-button"
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#6EB1F7",
+            },
+          ]
+        }
+        testID="normal-button-text"
+      >
+        Press me
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#6EB1F7",
+          "borderRadius": 8,
+          "height": 55,
+          "justifyContent": "center",
+          "marginHorizontal": 20,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+      testID="normal-button"
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "textAlign": "center",
+            },
+            undefined,
+          ]
+        }
+        testID="normal-button-text"
+      >
+        Press me
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 30,
+          "marginTop": 15,
+        }
+      }
+      testID="slider-button-container"
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "borderColor": "#6EB1F7",
+              "borderRadius": 9,
+              "borderWidth": 1,
+              "height": 55,
+              "justifyContent": "center",
+              "marginHorizontal": 20,
+            },
+            Object {
+              "alignItems": "flex-start",
+            },
+          ]
+        }
+      >
+        <View
+          onLayout={[Function]}
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          style={
+            Object {
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#6EB1F7",
+                  "borderRadius": 8,
+                  "height": 55,
+                  "justifyContent": "center",
+                  "width": 55,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 20,
+                  },
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 25,
+                    },
+                    undefined,
+                  ],
+                  Object {
+                    "fontFamily": "simple-line-icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+              testID="slider-button-icon"
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "position": "absolute",
+                "zIndex": -1,
+              },
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#6EB1F7",
+                  "fontSize": 17,
+                  "fontWeight": "400",
+                },
+                Object {
+                  "color": "#6EB1F7",
+                },
+              ]
+            }
+            testID="slider-button-text"
+          >
+            Slide me to continue
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

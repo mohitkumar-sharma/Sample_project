@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#1A1924",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFCC00",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 15,
+            "fontWeight": "400",
+            "margin": 10,
+            "padding": 3,
+          },
+          undefined,
+        ]
+      }
+      testID="banner-text"
+    >
+      Notice: You are running this app on undefined
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginHorizontal": 20,
+        },
+        Object {
+          "marginTop": 145,
+        },
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Enter your name here..."
+      placeholderTextColor="#E8E8E8"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "paddingHorizontal": 5,
+          "paddingVertical": 10,
+        }
+      }
+      testID="inv-text-input"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#E8E8E8",
+            "height": 1,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#6EB1F7",
+        "borderRadius": 8,
+        "height": 55,
+        "justifyContent": "center",
+        "marginHorizontal": 20,
+        "marginTop": 40,
+        "opacity": 1,
+      }
+    }
+    testID="normal-button"
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+      testID="normal-button-text"
+    >
+      Go To Home
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
