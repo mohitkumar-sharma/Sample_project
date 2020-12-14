@@ -1,4 +1,4 @@
-# Demo project for Investec
+# Demo project
 This is a React Native project which is compatible with both iOS and Android
 
 # Clone the project
